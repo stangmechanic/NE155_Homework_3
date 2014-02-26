@@ -1,9 +1,10 @@
-This folder should contain seven files:
+This folder should contain eight files:
 
 README.txt
 solutions.txt
 main.py
 problem_1.py
+problem_2.pdf
 problem_3.py 
 SOR.py
 GaussSeidel.py
@@ -23,6 +24,8 @@ is obscurred because they are (hopefully as they should be) identical solutions.
 The program should pause here until you close the plot window. Behavior might
 differ on your system.
 
+
+2. Handwritten solutions are provided in the problem_2.pdf. 
 
 3.a. The required iterations and solution for each of the three solution techniques.
 
