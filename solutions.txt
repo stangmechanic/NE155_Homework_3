@@ -1,0 +1,192 @@
+The condition number of A is: 4133.642927 
+The solution by inverting A, and multiplying by b is: 
+[[  1699.99009901]
+ [  3398.98019802]
+ [  5095.97029703]
+ [  6789.96039604]
+ [  8479.95049505]
+ [ 10164.94059406]
+ [ 11843.93069307]
+ [ 13515.92079208]
+ [ 15179.91089109]
+ [ 16834.9009901 ]
+ [ 18479.89108911]
+ [ 20113.88118812]
+ [ 21735.87128713]
+ [ 23344.86138614]
+ [ 24939.85148515]
+ [ 26519.84158416]
+ [ 28083.83168317]
+ [ 29630.82178218]
+ [ 31159.81188119]
+ [ 32669.8019802 ]
+ [ 34159.79207921]
+ [ 35628.78217822]
+ [ 37075.77227723]
+ [ 38499.76237624]
+ [ 39899.75247525]
+ [ 41274.74257426]
+ [ 42623.73267327]
+ [ 43945.72277228]
+ [ 45239.71287129]
+ [ 46504.7029703 ]
+ [ 47739.69306931]
+ [ 48943.68316832]
+ [ 50115.67326733]
+ [ 51254.66336634]
+ [ 52359.65346535]
+ [ 53429.64356436]
+ [ 54463.63366337]
+ [ 55460.62376238]
+ [ 56419.61386139]
+ [ 57339.6039604 ]
+ [ 58219.59405941]
+ [ 59058.58415842]
+ [ 59855.57425743]
+ [ 60609.56435644]
+ [ 61319.55445545]
+ [ 61984.54455446]
+ [ 62603.53465347]
+ [ 63175.52475248]
+ [ 63699.51485148]
+ [ 64174.50495049]
+ [ 64599.4950495 ]
+ [ 64973.48514851]
+ [ 65295.47524752]
+ [ 65564.46534653]
+ [ 65779.45544554]
+ [ 65939.44554455]
+ [ 66043.43564356]
+ [ 66090.42574257]
+ [ 66079.41584158]
+ [ 66009.40594059]
+ [ 65879.3960396 ]
+ [ 65688.38613861]
+ [ 65435.37623762]
+ [ 65119.36633663]
+ [ 64739.35643564]
+ [ 64294.34653465]
+ [ 63783.33663366]
+ [ 63205.32673267]
+ [ 62559.31683168]
+ [ 61844.30693069]
+ [ 61059.2970297 ]
+ [ 60203.28712871]
+ [ 59275.27722772]
+ [ 58274.26732673]
+ [ 57199.25742574]
+ [ 56049.24752475]
+ [ 54823.23762376]
+ [ 53520.22772277]
+ [ 52139.21782178]
+ [ 50679.20792079]
+ [ 49139.1980198 ]
+ [ 47518.18811881]
+ [ 45815.17821782]
+ [ 44029.16831683]
+ [ 42159.15841584]
+ [ 40204.14851485]
+ [ 38163.13861386]
+ [ 36035.12871287]
+ [ 33819.11881188]
+ [ 31514.10891089]
+ [ 29119.0990099 ]
+ [ 26633.08910891]
+ [ 24055.07920792]
+ [ 21384.06930693]
+ [ 18619.05940594]
+ [ 15759.04950495]
+ [ 12803.03960396]
+ [  9750.02970297]
+ [  6599.01980198]
+ [  3349.00990099]]
+
+These solutions are the same
+Using Jacobi to converge to an absolute error of 0.00000100 required 10 iterations.
+The solution is:
+[[ 36.53842431]
+ [ 46.15381822]
+ [ 48.07690911]
+ [ 46.15384092]
+ [ 36.53846023]]
+Trying to GaussSeidel solve
+Using GaussSeidel to converge to an absolute error of 0.00000100 required 10 iterations.
+The solution is:
+[[ 36.53844352]
+ [ 46.15383264]
+ [ 48.07691632]
+ [ 46.15384362]
+ [ 36.5384609 ]]
+Using SOR to converge to an absolute error of 0.00000100 required 7 iterations.
+The solution is:
+[[ 36.5384784 ]
+ [ 46.15388013]
+ [ 48.07694104]
+ [ 46.15385316]
+ [ 36.53846521]]
+Using Jacobi to converge to a relative error of 0.00000100 required 11 iterations.
+The solution is:
+[[ 36.53845455]
+ [ 46.15384092]
+ [ 48.07692046]
+ [ 46.15384517]
+ [ 36.53846129]]
+Using Jacobi to converge to a relative error of 0.00000001 required 14 iterations.
+The solution is:
+[[ 36.53846149]
+ [ 46.15384612]
+ [ 48.07692306]
+ [ 46.15384615]
+ [ 36.53846154]]
+Trying to GaussSeidel solve
+Using GaussSeidel to converge to a relative error of 0.00000100 required 11 iterations.
+The solution is:
+[[ 36.53845816]
+ [ 46.15384362]
+ [ 48.07692181]
+ [ 46.15384568]
+ [ 36.53846142]]
+Trying to GaussSeidel solve
+Using GaussSeidel to converge to a relative error of 0.00000001 required 13 iterations.
+The solution is:
+[[ 36.53846142]
+ [ 46.15384606]
+ [ 48.07692303]
+ [ 46.15384614]
+ [ 36.53846153]]
+Using SOR to converge to an absolute error of 0.00000100 required 8 iterations.
+The solution is:
+[[ 36.53846919]
+ [ 46.1538498 ]
+ [ 48.07692421]
+ [ 46.15384677]
+ [ 36.53846134]]
+Using SOR to converge to an absolute error of 0.00000001 required 10 iterations.
+The solution is:
+[[ 36.53846152]
+ [ 46.15384616]
+ [ 48.07692305]
+ [ 46.15384615]
+ [ 36.53846154]]
+Omega: 1.052000 only required 9 iterations.
+Omega: 1.053000 only required 9 iterations.
+Omega: 1.054000 only required 9 iterations.
+Omega: 1.055000 only required 9 iterations.
+Omega: 1.056000 only required 9 iterations.
+Omega: 1.057000 only required 9 iterations.
+Omega: 1.058000 only required 9 iterations.
+Omega: 1.059000 only required 9 iterations.
+Omega: 1.060000 only required 9 iterations.
+Omega: 1.061000 only required 9 iterations.
+Omega: 1.062000 only required 9 iterations.
+Omega: 1.063000 only required 9 iterations.
+Omega: 1.064000 only required 9 iterations.
+Omega: 1.065000 only required 9 iterations.
+Omega: 1.066000 only required 9 iterations.
+Omega: 1.067000 only required 9 iterations.
+Omega: 1.068000 only required 9 iterations.
+Omega: 1.080000 only required 9 iterations.
+Omega: 1.081000 only required 9 iterations.
+Omega: 1.082000 only required 9 iterations.
+Omega: 1.083000 only required 9 iterations.
+Omega: 1.084000 only required 9 iterations.
