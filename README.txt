@@ -1,4 +1,4 @@
-This folder should contain eight files:
+This folder should contain nine files:
 
 README.txt
 solutions.txt
