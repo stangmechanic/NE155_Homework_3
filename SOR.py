@@ -1,7 +1,18 @@
 import numpy as np
 
 #Takes an nxn matrix and an 1xn vector
-#and solves for x by interating num_it times.
+#and solves for x by iterating until the
+#given tolerance (tol) is met. tol_type
+#is a single character to indicate absolute
+#or relative convergence ('a' or 'r').
+#Prints the solution and required iterations
+#to meet the tolerance. verbose is a single
+#boolean which determines whether or not to
+#print the solution. The maximum number of
+#iterations is limited to 200 for this specific
+#set of equations we're trying to solve.
+#Returns the number of iterations required to
+#converge, or 200 if we hit the max. 
 
 def go(A, b, w, tol_type, tol, verbose):
     
@@ -58,7 +69,3 @@ def go(A, b, w, tol_type, tol, verbose):
         print(x)
 
     return num_iterations
-
-
-
-    return

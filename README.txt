@@ -14,13 +14,30 @@ The solution set is run by the command:
 python main.py
 
 and should produce the same information as is contained
-in solutions.txt. 
+in solutions.txt. Expected run time is less than five minutes. 
+
+General notes:
+
+Algorithms for Jacobi iteration, GaussSeidel and Successive Over Relaxation
+are adapted from:
+
+Chapra, Steven and Raymond Canale. “Numerical Methods for Engineers”. 4th ed.
+New York, McGraw-Hill Higher Education, 2002. 
+
+The code is not optimized for performance, and is intended to be somewhat
+readable for debugging purposes. Three solvers are provided, Jacobi, GS, and 
+SOR. See the python files description of arguments and outputs. 
+
+The python scripts were tested against the following configurations:
+Ubuntu 13.10 with python 2.7.5+
+OS X 10.9.2 with python 2.7.6
+
 
 The output to standard out is: 
 1.b. The condition number of the matrix A (4133.642927)
 1.c. The solution by inversion and multiplication:
 1.e. The plot of my solution versus numpy.linalg.solve.  One of the solutions
-is obscurred because they are (hopefully as they should be) identical solutions.
+is obscured because they are (hopefully as they should be) identical solutions.
 The program should pause here until you close the plot window. Behavior might
 differ on your system.
 

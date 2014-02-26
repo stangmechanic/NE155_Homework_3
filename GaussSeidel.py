@@ -1,7 +1,12 @@
 import numpy as np
 
 #Takes an nxn matrix and an 1xn vector
-#and solves for x by interating num_it times.
+#and solves for x by iterating until the
+#given tolerance (tol) is met. tol_type
+#is a single character to indicate absolute
+#or relative convergence ('a' or 'r').
+#Prints the solution and required iterations
+#to meet the tolerance.
 
 def go(A, b, tol_type, tol):
     print("Trying to GaussSeidel solve")
