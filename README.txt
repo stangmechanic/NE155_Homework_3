@@ -26,12 +26,13 @@ New York, McGraw-Hill Higher Education, 2002.
 
 The code is not optimized for performance, and is intended to be somewhat
 readable for debugging purposes. Three solvers are provided, Jacobi, GS, and 
-SOR. See the python files description of arguments and outputs. 
+SOR. See the python files description of arguments and outputs. Scripts require
+the SciPy stack (www.scipy.org - thanks smart people!)
 
 The python scripts were tested against the following configurations:
 Ubuntu 13.10 with python 2.7.5+
-OS X 10.9.2 with python 2.7.6
-
+Mac OS X 10.9.2 with python 2.7.6
+Windows 7 Professional, Service Pack 1, python 2.7 (with SciPy stack from Anaconda)
 
 The output to standard out is: 
 1.b. The condition number of the matrix A (4133.642927)
@@ -40,7 +41,6 @@ The output to standard out is:
 is obscured because they are (hopefully as they should be) identical solutions.
 The program should pause here until you close the plot window. Behavior might
 differ on your system.
-
 
 2. Handwritten solutions are provided in the problem_2.pdf. 
 
@@ -64,4 +64,5 @@ iterations to convergence is produced. I limit the number of iterative attempts 
 that not all omegas in this range yield the fewest number of iterations required. For example
 an omega of 1.07 required ten iterations, but 1.069 only required nine iterations. This 
 approach is not helpful if you need to solve the equation only once, but if we need 
-to solve the equation several times, this could be helpful.  
+to solve the equation several times, this could be helpful. Also, we know the best relaxation
+values are probably near one, so we could narrow the search range to 0.8 to 1.2 or so. 
